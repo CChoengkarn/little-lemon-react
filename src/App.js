@@ -1,11 +1,15 @@
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     Homepage
-    </div>
+    <React.Fragment>
+     <Header/>
+     <Nav/>
+     <Main/>
+     <Footer/>
+    </React.Fragment>
   );
-}
+  }
 
 export default App;
