@@ -1,20 +1,25 @@
 <footer>
-  <p>
-    &#169 Copyright, A&M
+    <p>Copyright Little Lemon</p>
+    <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Reservations</a></li>
+    <li><a href="#">Order Online</a></li>
+    <li><a href="#">Login</a></li>
+    </ul>
     <br>
-    1111 East Santiago Avenue
+    Address: 1111 East Floral Avenue San Diego, California
     </br>
-    San Diego,California 555-555-5555
-    </p>
     <br>
-    Little Lemon Kitchen
+    Phone number: 555-555-5555
     </br>
-    <p>
-        Monday-Thursday 11am-9pm
-        Friday-Saturday 11am-10pm 
-        Sunday 4pm-9pm
-    </p>
-
-  
-
+    <br>
+    Email: little.lemon.restaurant@gmail.com
+    </br>
+    <br>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </br>
 </footer>
