@@ -1,3 +1,5 @@
+import React from 'react';
+
 <footer>
     <p>Copyright Little Lemon</p>
     <ul class="navbar">
@@ -23,3 +25,6 @@
     <a href="#" class="fa fa-instagram"></a>
     </br>
 </footer>
+
+
+export default Footer;
