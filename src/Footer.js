@@ -1,17 +1,21 @@
 import React from 'react';
 
 <footer>
+    <img src="/images/Asset 9@4x.png" alt="logo"></img>
     <p>Copyright Little Lemon</p>
-    <ul class="navbar">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">Reservations</a></li>
-    <li><a href="#">Order Online</a></li>
-    <li><a href="#">Login</a></li>
-    </ul>
+    <nav>
+        <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#">Reservations</a></li>
+        <li><a href="#order online">Order Online</a></li>
+        <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+    <h1>Contact</h1>
     <br>
-    Address: 1111 East Floral Avenue San Diego, California
+    Address: 1111 Floral Avenue San Diego, California
     </br>
     <br>
     Phone number: 555-555-5555

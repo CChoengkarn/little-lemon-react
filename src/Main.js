@@ -12,17 +12,20 @@ import React from 'react';
     <article>
         <h2>Specials</h2>
         <button class="Online delivery" type="button">Order online</button>
+
         <img src="/images/Greek salad.png"></img>
         <br>Greek Salad $12.99</br>
         <p>Famous greek salad of crispy lettuce...</p>
         <br>Order Online</br>
+
         <img src="/images/Bruschetta.png"></img>
         <br>Bruschetta</br>
         <p>Our bruschetta is made from grilled bread...</p>
         <br>Order Online</br>
+
         <img src="images/Lemon Cake.png"></img>
         <br>Lemon Cake $5.99</br>
-        <p> Our lemon cake is made with the finest ingredients </p>
+        <p> Our lemon cake is made with the finest ingredients... </p>
         <br>Order Online</br>
 
     </article>
