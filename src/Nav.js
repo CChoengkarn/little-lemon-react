@@ -1,6 +1,7 @@
 import React from 'react';
 
-<nav>
+function Nav() {
+    return(
    <ul class="navbar">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -9,6 +10,6 @@ import React from 'react';
     <li><a href="#order online">Order Online</a></li>
     <li><a href="#login">Login</a></li>
     </ul>
-</nav>
+)};
 
 export default Nav;

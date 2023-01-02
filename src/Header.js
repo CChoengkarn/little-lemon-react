@@ -1,8 +1,9 @@
 import React from 'react';
 
-<header>
+function Header() {
+    return (
     <img src="/images/Asset 16@4x.png" alt="little lemon logo"></img>
+)};
 
-</header>
 
 export default Header;
