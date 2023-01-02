@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-    <div class="Footer">
+    <div className="Footer">
         <img src="/images/Asset 9@4x.png" alt="logo"></img>
         <h1>Contact</h1>
         <ul>
@@ -11,7 +11,7 @@ function Footer() {
             <li>Email: little.lemon@gmail.com</li>
         </ul>
     <nav>
-        <ul class="navbar">
+        <ul className="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
@@ -20,7 +20,7 @@ function Footer() {
             <li><a href="#login">Login</a></li>
         </ul>
     </nav>
-    <section>
+    <section className="social media links">
         <a href="facebook" class="fa fa-facebook">Facebook</a>
         <a href="twitter" class="fa fa-twitter">Twitter</a>
         <a href="instagram" class="fa fa-instagram">Instagram</a>
