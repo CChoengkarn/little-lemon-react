@@ -45,6 +45,9 @@ li a:hover {
   background-color: #495E57;
 }
 
+.main {
+  background-color: #495E57;
+}
 h1 {
   color: #F4CE14;
   font-size: 64px;
@@ -52,6 +55,7 @@ h1 {
   font-family:'Markazi Text', serif;
   letter-spacing: 2px;
   margin-left: 100px;
+  background-color:#495E57
 }
 
 h2, p1 {
@@ -61,6 +65,8 @@ h2, p1 {
   font-weight:normal;
   margin-left: 100px;
   
+  background-color:#495E57
+
 }
 
 .button1 {
@@ -126,6 +132,10 @@ p2, p3, p4 {
 
 .testimonials {
   background-color: green;
+}
+
+.fa {
+  color: #F4CE14;
 }
 .column-4-left {
   width: 175px;
