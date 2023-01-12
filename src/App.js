@@ -43,7 +43,7 @@ function App() {
           </br>
       </div>
       <div class="col-6">
-          <img src="..\images\main.png" alt="main"></img>
+          <img src=".../images/main.png" alt="main"></img>
       </div>
       </div>
       </section>
@@ -54,19 +54,19 @@ function App() {
       <section>
       <div>class="row1"</div>
       <div class="column1">
-      <img src="..\images\Greek salad.PNG" alt="greek salad"></img>
+      <img src=".../images/Greek salad.PNG" alt="greek salad"></img>
       <h4>Greek Salad <span style="color:red;">$12.99</span></h4>
       <p2>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese garnished with crunchy garlic and rosemary croutons. </p2>
       <br>Order a delivery</br>
   </div>
   <div class="column2">
-      <img src="..\images\Bruschetta.png"alt="bruschetta"></img>
+      <img src=".../images/Bruschetta.png"alt="bruschetta"></img>
       <h5>Bruschetta <span style="color:red;">$5.99</span></h5>
       <p3>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p3>
       <br>Order a delivery</br>
   </div>
   <div class="column3">
-      <img src="..\images\Lemon Cake.png" alt="lemon cake"></img>
+      <img src=".../images/Lemon Cake.png" alt="lemon cake"></img>
       <h6>Lemon Cake <span style="color:red;">$5.00</span></h6>
       <p4>This comes straight from grandma’s recipe book, every last ingredients has been sourced and is as authentic as can be imagined. </p4>
       <br>Order a delivery</br>
@@ -85,7 +85,7 @@ function App() {
     <span class="fa fa-star"></span>
   </p>
   <p>David S.</p>
-  <img>src="..\images\David.PNG" width="100px" alt="David"</img>
+  <img src=".../images/David.PNG" width="100px" alt="David"></img>
   <p>Wonderful experience, food was amazing!!!</p>
 </div>
 <div class="column-4-middle">
@@ -96,7 +96,7 @@ function App() {
     <span class="fa fa-star"></span>
   </p>
   <p>Sarah R.</p>
-  <img> src="..\images\Sarah.PNG"</img>
+  <img src=".../images/Sarah.PNG"></img>
   <p>Best restaurant in town! If you're looking for great Mediterranean food with a twist, come here!</p>
 </div>
 <div class="column-4-middle">
@@ -107,7 +107,7 @@ function App() {
     <span class="fa fa-star"></span>
   </p>
   <p>Katie P.</p>
-  <img> src="..\images\Katie.PNG"</img>
+  <img src=".../images/Katie.PNG"></img>
   <p>I couldn't have asked for better service. Server was attentive and the food was excellent.</p>
 </div>
 <div class="column-4-right">
@@ -118,7 +118,7 @@ function App() {
     <span class="fa fa-star"></span>
   </p>
   <p>Bobby V.</p>
-  <img> src="..\images\Bobby.PNG"</img>
+  <img src=".../images/Bobby.PNG"></img>
   <p>I came upon this place accidently and decided to give it a try. Food was amazing! I'll be coming back again.</p>
 </div>
 </section>
@@ -131,8 +131,8 @@ function App() {
         We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
       </p>
     <div class="col-6">
-      <img src="..\images\Adrian.PNG" alt="Adrian"></img>
-      <img src="..\images\Mario.png" alt="Mario"></img>
+      <img src=".../images/Adrian.PNG" alt="Adrian"></img>
+      <img src=".../images/Mario.png" alt="Mario"></img>
     </div>
     </div>
 
@@ -140,7 +140,7 @@ function App() {
      <Footer />
      <div class="footer">
       <div class="col-1">
-      <img>src="images/Asset 9@4x.png" alt="bottom logo"</img>
+      <img src=".../images/Asset 9@4x.png" alt="bottom logo"></img>
       </div>
       <div class="col-2">
       <h9>Links</h9>
