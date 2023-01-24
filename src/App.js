@@ -4,6 +4,7 @@ import logo from './images/logo.png';
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Main from './components/Main'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Nav />
       <Main />
+      <Footer />
     </React.Fragment>
   );
   };

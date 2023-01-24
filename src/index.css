@@ -62,9 +62,124 @@ code {
   margin-left: 100px;
 }
 
-
-
 .main img {
 margin-left: 1200px;
 border-radius: 70px;
 }
+
+.button1 {
+background-color: #F4CE14;
+color: black;
+border: 6px solid #F4CE14;
+border-radius: 4px;
+font-weight: medium;
+margin-left: 100px;
+font-family:'Karla', sans-serif;
+font-size: 18px;
+}
+
+.button2 {
+  background-color: #F4CE14;
+  color: black;
+  border: 6px solid #F4CE14;
+  border-radius: 4px;
+  font-weight: medium;
+  margin-left: 1100px;
+  font-family:'Karla', sans-serif;
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+.column h1 {
+  text-align: center;
+}
+
+.row h1 {
+  text-align: center;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+.fa {
+  color: #F4CE14;
+}
+
+
+
+
+.about img {
+  margin-left: 1000px;
+  border-radius: 20px;
+  }
+
+
+.column2 {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+
+.column2 a{
+  display:block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+
+.socials{
+  font-size: 30px;
+
+  }
