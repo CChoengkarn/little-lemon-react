@@ -22,7 +22,7 @@ function Footer() {
             <div className="column2">
                 <h4>Contacts</h4>
                 <p>
-                    1111 Ocean Drive San Diego, Cake <br /> 555-555-5555 <br />little.lemon@gmail.com
+                    1111 Ocean Drive San Diego, CA <br /> 555-555-5555 <br />little.lemon@gmail.com
                 </p>
             </div>
 
@@ -34,7 +34,6 @@ function Footer() {
                 <a href="#" class="fa fa-twitter"></a>
                 </ul>
             </div>
-            
         </div>
     )
 
