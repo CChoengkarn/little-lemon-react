@@ -17,28 +17,19 @@ code {
   display: flex;
 }
 
-.main-nav {
-  list-style-type: none;
-  margin: 0px;
-  float: right;
-  position: relative;
-  right: 20px;
-  top: 85px;
-  left: 600px;
-  padding: 10px;
-  width: 83%;
 
-}
-
-.main-nav ul li {
-  position: relative;
-  margin-left:90px;
-  right:10px;
-  display: inline-block;
-  font-family:'Karla', sans-serif;
+.main-nav a {
+  padding-left: 30px;
   font-size: 18px;
+  float: right;
   font-weight: bold;
+  color: black;
+  font-family:'Karla', sans-serif;
 }
+
+
+
+
 
 .main {
   background-color: #495E57;
@@ -255,5 +246,11 @@ font-size: 20px;
   font-size: 18px;
   font-weight: bold;
   color: #EE9972;
-  
+
+}
+
+
+.form {
+  text-align: center;
+  margin-left: 800px;
 }
