@@ -23,9 +23,9 @@ const Footer =() => {
             </ul>
             <ul>
                 <li>Contact</li>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
+                <li>1111 Ocean Ave San Diego CA</li>
+                <li>555-555-5555</li>
+                <li>Little.Lemon@gmail.com</li>
             </ul>
             <ul>
             <li>Social Media</li>

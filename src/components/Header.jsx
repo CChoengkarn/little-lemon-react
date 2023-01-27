@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import logo2 from '../images/logo2.png';
 
 
 const Header = () => {
     return (
         <header>
         <div className="container">
-        <img src={logo} width={100} height={150} alt="Logo" />
+        <img src={logo2} width={300} height={70} alt="Logo" />
         </div>
         </header>
  );

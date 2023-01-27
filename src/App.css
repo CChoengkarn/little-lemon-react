@@ -69,7 +69,7 @@
 #hero img {
   position: absolute;
   width: 25vw;
-  height: 60vh;
+  height: 50vh;
   top: 3vh;
   right: 14.6vw;
   border-radius: 1vh;
@@ -223,7 +223,7 @@
 
 #aboutsection {
   padding: 6vh 0 16vh 0;
-  background-color: #495e57;
+  background-color: #495E57
 }
 #aboutsection h2 {
   font-size: 40px;
@@ -260,7 +260,7 @@
   width: 20vw;
   font-size: 18px;
   font-family: "Karla", sans-serif;
-  color: white;
+  color: black;
   line-height: 1.65;
 }
 
