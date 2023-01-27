@@ -1,61 +1,55 @@
-import React from 'react'
 import './App.css';
-import logo from './images/logo.png';
-import Header from './components/Header'
-import Nav from './components/Nav'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Menu from './pages/Menu'
-import Reservation from './pages/Reservation'
-import OrderOnline from './pages/OrderOnline'
-import Login from './pages/Login'
-import BookingForm from './components/BookingForm'
-import BookingPage from './components/BookingPage'
-import { useState } from "react";
-import ConfirmedBooking from './components/ConfirmedBooking'
-
-function Info() {
-  const [info, setInfo] = useState(
-    {
-      date: "",
-      time: "",
-      occasion: "",
-    }
-  );
-  function putInfo() {
-    setInfo(prevState => {
-      return {
-        ...prevState,
-      }
-    })
-  }
-}
+import { Routes, Route } from 'react-router-dom';
+import { useReducer } from 'react';
+import HomePage from './components/HomePage';
+import BookingPage from "./components/BookingPage";
+import { fetchAPI, submitAPI } from "./server/api";
+import ConfirmedBooking from "./components/ConfirmedBooking";
 
 
 function App() {
+  function initializeTimes() {
+    const times = {
+      times: [...fetchAPI(new Date())],
+    };
+    return times;
+  }
+
+  function reducer(state, action) {
+    const newBookingDate = action.setBookingDate;
+    const newTimes = fetchAPI(newBookingDate);
+    return { times: [...newTimes] };
+  }
+
+  function submitForm(formData) {
+    const success = submitAPI(formData);
+    if (success) {
+      window.location.href = "/confirmedbooking";
+    }
+  }
+
+  const initialState = initializeTimes();
+  const [availableTimes, setAvailableTimes] = useReducer(reducer, initialState);
+
   return (
-    <React.Fragment>
-      <Header />
-      <Nav />
+    <>
       <Routes>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/about" element={<About/>}></Route>
-        <Route path="/menu" element={<Menu/>}></Route>
-        <Route path="/reservation" element={<Reservation />}></Route>
-        <Route path="/OrderOnline" element={<OrderOnline />}></Route>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/BookingPage" element={<BookingPage />}></Route>
-        <Route path="./ConfirmedBooking" element={<ConfirmedBooking />}></Route>
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/booking"
+          element={
+            <BookingPage
+              availableTimes={availableTimes}
+              setAvailableTimes={setAvailableTimes}
+              submitForm={submitForm}
+            />
+          }
+        />
+        <Route path="/confirmedbooking" element={<ConfirmedBooking />} />
       </Routes>
-      <Main />
-      <BookingForm />
-      <BookingPage />
-      <Footer />
-    </React.Fragment>
+    </>
   );
-  };
+}
+
 
 export default App;
