@@ -417,4 +417,42 @@ input[type="submit"] {
 
 
 
+.menu h1 {
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
+  font-weight: 500;
+  background-color: #495E57;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.menuofdishes {
+  margin-left: 750px;
+  border-radius: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+} 
+
+.wraparound {
+  background-color: #FBDABB;
+}
+
+
+.orderonline h1 {
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
+  font-weight: 500;
+  background-color: #495E57;
+  padding-top: 20px;
+}
+
+.order {
+  background-color: #495E57;
+}
+
+.mediterraneanfood {
+width: 100%;
+  
+}

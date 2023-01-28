@@ -1,13 +1,27 @@
 import React from "react";
 import Header from './Header';
 import Nav from './Nav';
+import Footer from './Footer';
+import AboutSection from './AboutSection';
 
 const About = () => {
     return (
-        <div>
+        <div className="about">
             <Header />
             <Nav />
-          <h1>Menu</h1>
+            <div className="Aboutpage">
+            <h1>About</h1>
+            <AboutSection />
+          </div>
+
+
+
+
+
+
+
+    <Footer />
+
         </div>
     );
 };

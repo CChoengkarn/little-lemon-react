@@ -5,7 +5,6 @@ import HomePage from './HomePage';
 const Home = () => {
     return (
         <div>
-           
           <HomePage />
         </div>
     );
