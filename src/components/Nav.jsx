@@ -8,22 +8,22 @@ const Nav = () => {
         <nav className="main-nav">
             <ul>
             <li>
-            <Link to="/">Login</Link>
+            <Link to="/login">Login</Link>
             </li>
             <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
             </li>
             <li>
-            <Link to="/">Order Online</Link>
+            <Link to="/order online">Order Online</Link>
             </li>
             <li>
             <Link to="/booking">Reservations</Link>
             </li>
             <li>
-            <Link to="/">Menu</Link>
+            <Link to="/menu">Menu</Link>
             </li>
             <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
             </li>
         </ul>
      </nav>

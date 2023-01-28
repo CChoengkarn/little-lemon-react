@@ -5,7 +5,11 @@ import HomePage from './components/HomePage';
 import BookingPage from "./components/BookingPage";
 import { fetchAPI, submitAPI } from "./server/api";
 import ConfirmedBooking from "./components/ConfirmedBooking";
-
+import Home from './components/Home';
+import Menu from './components/Menu';
+import OrderOnline from './components/OrderOnline';
+import About from './components/About';
+import Login from './components/Login';
 
 function App() {
   function initializeTimes() {
@@ -46,6 +50,11 @@ function App() {
           }
         />
         <Route path="/confirmedbooking" element={<ConfirmedBooking />} />
+      <Route path="/home" element={<Home />}></Route>
+      <Route path="/menu" element={<Menu />}></Route>
+      <Route path="/order online" element={<OrderOnline />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/login" element={<Login />}></Route>
       </Routes>
     </>
   );

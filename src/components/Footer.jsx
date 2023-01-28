@@ -12,15 +12,30 @@ const Footer =() => {
             <img src={logo} alt="Logo" />
             <ul>
                 <li>Links</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
+                <li>
+                    <Link to="/home">Home
+                    </Link>
+                </li>
+                <li>
+                <Link to="/about">About
+                    </Link>
+                </li>
+                <li>
+                <Link to="/menu">Menu
+                    </Link>
+                </li>
                 <li>
                     <Link to="/booking">Reservations
                     </Link>
                 </li>
-                <li>Order Online</li>
-                <li>Login</li>
+                <li>
+                <Link to="/order online">Order Online
+                    </Link>
+                    </li>
+                <li>
+                <Link to="/login">Login
+                    </Link>
+                </li>
             </ul>
             <ul>
                 <li>Contact</li>
