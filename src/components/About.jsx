@@ -6,20 +6,13 @@ import AboutSection from './AboutSection';
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="aboutus">
             <Header />
             <Nav />
             <div className="Aboutpage">
-            <h1>About</h1>
+            <h1>About Us</h1>
             <AboutSection />
           </div>
-
-
-
-
-
-
-
     <Footer />
 
         </div>

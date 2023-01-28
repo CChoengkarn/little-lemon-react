@@ -456,3 +456,35 @@ input[type="submit"] {
 width: 100%;
   
 }
+
+.Aboutpage h1 {
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.logintitle h1 {
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
+  font-weight: 500;
+  background-color: #495E57;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.loginpage {
+  width: 20%;
+  height: 20%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 775px;
+  padding-right:775px;
+
+}
+
+.logintitle {
+  background-color:#FBDABB
+}
+
+
