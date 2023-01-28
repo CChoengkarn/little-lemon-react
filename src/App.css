@@ -327,6 +327,7 @@
   line-height: 1.65;
 }
 
+
 #footer img {
   width: 5%;
 }
@@ -336,24 +337,60 @@
   justify-content: space-between;
   align-items: baseline;
   grid-template-columns: 1fr 1fr 1fr;
+  font-size: 16px;
+  font-weight: 400px;
+  
 }
 #footer .container ul li {
   list-style: none;
-  font-size: 16px;
   line-height: 1.65;
-}
-#footer ul > li:first-child {
-  font-weight: 500;
-}
-#footer ul li {
   color: #333333;
   cursor: pointer;
-  font-size: 18px;
-  transition: all 0.2s ease;
+
 }
-#footer ul > li:hover {
-  font-weight: 300;
+
+.container li:hover {
+  font-weight: 500;
+  
 }
+
+#footer .facebook  {
+  width: 20px;
+  height: 30p
+}
+
+#footer .instagram {
+  width: 20px;
+  height: 30p
+}
+
+#footer .twitter {
+  width: 20px;
+  height: 30p
+}
+
+#footer .addressicon {
+  width: 20px;
+  height: 30p
+}
+
+#footer .phoneicon {
+  width: 20px;
+  height: 30p
+}
+
+#footer .emailicon {
+  width: 20px;
+  height: 30p
+}
+
+
+
+
+
+
+
+
 
 form {
   font-family: "Markazi Text", serif;

@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from '../images/logo.png';
-import { Link } from 'react-router-dom'
-
-
+import { Link } from 'react-router-dom';
+import facebookicon from '../images/facebookicon.png';
+import instagram from '../images/instagram.png';
+import twitter from '../images/twitter.png';
+import addressicon from '../images/addressicon.png';
+import phoneicon from '../images/phoneicon.png';
+import emailicon from '../images/emailicon.png';
 
 
 const Footer =() => {
@@ -39,15 +43,15 @@ const Footer =() => {
             </ul>
             <ul>
                 <li>Contact</li>
-                <li>1111 Ocean Ave Chicago, Illinois</li>
-                <li>555-555-5555</li>
-                <li>Little.Lemon@gmail.com</li>
+                <li><img src={addressicon} className="addressicon" alt="addressicon" />1111 Ocean Ave Chicago, Illinois</li>
+                <li><img src={phoneicon} className="phoneicon" alt="phoneicon" />555-555-5555</li>
+                <li><img src={emailicon} className="emailicon" alt="emailicon" />Little.Lemon@gmail.com</li>
             </ul>
             <ul>
             <li>Social Media</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
+            <li>Facebook <img src={facebookicon} className="facebook" alt="facebook" /></li>
+            <li>Instagram <img src={instagram} className="instagram" alt="instragram" /></li>
+            <li>Twitter <img src={twitter} className="twitter" alt="twitter" /></li>
             </ul>
             </div>
             </section>
