@@ -6,7 +6,7 @@ const Specials = () => {
         <section id="specials">
             <div className="container">
                 <div className="content">
-                    <h2>Specials</h2>
+                    <h2>This Week's Specials</h2>
                     <button>Order Online</button>
                 </div>
                 <FoodSection />

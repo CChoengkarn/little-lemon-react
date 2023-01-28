@@ -28,10 +28,9 @@
 .main-nav ul li a {
   display: block;
   color: black;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   font-family:'Karla', sans-serif;
   font-size: 18px;
 }
@@ -69,9 +68,10 @@
 #hero img {
   position: absolute;
   width: 25vw;
-  height: 50vh;
+  height: 40vh;
   top: 3vh;
   right: 14.6vw;
+
   border-radius: 1vh;
 }
 #hero p {
@@ -102,6 +102,7 @@
 
 #specials {
   padding: 14vh 0 6vh 0;
+  padding-top: 2vh;
 }
 #specials .content {
   display: flex;
@@ -109,12 +110,13 @@
   align-items: center;
 }
 #specials h2 {
-  font-family: "Karla", sans-serif;
-  font-size: 40px;
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
   font-weight: 500;
+  opacity: 0.7;
 }
 #specials .content button {
-  padding: 2vh 2vw;
+  padding: 1vh 1vw;
   font-size: 20px;
   font-family: "Karla", sans-serif;
   font-weight: 500;
@@ -122,10 +124,10 @@
   border-radius: 16px;
   background-color: #f4ce14;
   cursor: pointer;
-}
-#specials .content button:hover {
   transform: scale(105%);
 }
+
+
 
 .foodsection {
   display: grid;
@@ -133,60 +135,85 @@
   gap: 3vw;
   padding-top: 1vh;
 }
-.foodinfo {
-  background-color: #FBDABB;
-  border-radius: 10px;
-}
+
 .foodinfo img {
   object-fit: cover;
   width: 100%;
   height: 25vh;
-  border-radius: 10px;
-  border: 1px solid  #FBDABB;
+  border-radius: 20px;
 }
 .foodinfo div {
   margin: 0 1.2vw;
-  font-family: "Markazi", serif;
-  font-size: 24px;
-  color:#EE9972;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color:black;
   display: flex;
   justify-content: space-between;
 }
 .foodinfo .price {
-  color: #495E57;
+  color: #ee9972;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
 }
 .foodinfo p {
-  margin: 0 1.2vw;
+  font-size: 16px;
+  font-size: 400;
+  font-family: "Karla", sans-serif;
 }
+
+.foodinfo .bike {
+  height:50px;
+  width: 70px;
+  
+}
+
 .foodinfo button {
   display: flex;
-  align-items: center;
-  margin: 2vh 1.2vw;
-  padding: 0;
+  text-align: center;
   background: none;
   outline: none;
-  border: none;
+  border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
   color: black;
+  
+  
 
 }
 .foodinfo button p {
-  padding-right: 10vw;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Karla", sans-serif;
+  
+  
 }
 .foodinfo button:hover {
-  transform: translateX(20px);
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
 }
+
+
+
+
+
+
+
+
 
 #testimonials {
   padding: 1vh 0;
-  background-color: #edefee;
+  background-color: #FBDABB;
   font-family: "Karla", sans-serif;
+
 }
 #testimonials h2 {
-  font-size: 40px;
-  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
   font-weight: 500;
+  text-align: center;
+  opacity: 0.7;
 }
 #testimonials > div > div {
   padding: 8vh 0;
@@ -200,65 +227,115 @@
   padding: 1vw;
   text-align: center;
   position: relative;
+  background-color: #edefee;
+  border-radius: 20px;
 }
 
 .testimonial img {
-  top: -4vh;
-  left: 8vw;
-  position: absolute;
-  width: 9vh;
-  height: 9vh;
-  border-radius: 20px;
+  height: 85px;
+  border-radius: 50px;
 }
+
 .testimonial .content {
   padding-top: 3vh;
 }
+
 .testimonial h4 {
   margin: 0;
-}
-.testimonial .content p {
-  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
   font-family: "Karla", sans-serif;
 }
 
+.testimonial .content p {
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: #fbdabb;
+  line-height: 1.5;
+  opacity: 0.8;
+  
+}
+
+
+
+
 #aboutsection {
   padding: 6vh 0 16vh 0;
-  background-color: #495E57
+  background-color: #495E57;
 }
 #aboutsection h2 {
   font-size: 40px;
   font-weight: 500;
   color: #fbdabb;
+  font-family: "Karla", sans-serif;
 }
 #aboutsection .container {
   display: flex;
 }
-#aboutsection .image-container img {
-  width: 15vw;
-  height: 40vh;
-  object-fit: cover;
-  border-radius: 20px;
-}
-#aboutsection .image-container {
+
+
+
+
+
+
+
+
+
+
+
+
+.img-container {
   position: relative;
+  
 }
-#aboutsection .image-container  img:first-child {
-  position: relative;
-  top: 0;
-  left: 40vw;
-  z-index: 1;
-}
-#aboutsection .image-container  img:last-child {
+
+.overlay-img {
   position: absolute;
-  top: 18vh;
-  left: 52vw
+  top: 0;
+  left: 0;
+  
 }
+
+.top {
+  position: absolute;
+  left: 100px;
+  top: 170px;
+  z-index: 1;
+
+ }
+
+ .img-container img {
+  border-radius: 20px;
+  margin-left: 800px;
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #aboutsection .content {
   width: 50vw;
 }
 #aboutsection .content p {
   width: 20vw;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Karla", sans-serif;
   color: black;
   line-height: 1.65;
@@ -350,7 +427,6 @@ input[type="submit"] {
   justify-content: space-around;
   color:#495E57
 }
-
 
 
 

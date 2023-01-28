@@ -12,11 +12,13 @@ const AboutSection = () => {
                     </h2>
                     <p>
                     We are a family-owned restaurant, focused on traditional receipes served with a modern twist. We are two brothers, Mario and Adrian and we grew up eating our
-                     grandparent's cooking. Our dishes are made from the finest ingredients and sourced from local farms.
+                     grandparent's cooking. Our dishes are made from the finest ingredients and sourced from local farms. You can count on us for delicious and quality food. We opened our doors at our first location in Chicago, Illinois and
+                     have been proudly serving the community since 2018. 
+                     
                     </p>
-                    <div className="image-container">
-                    <img src={mario}  alt="Mario" />
-                    <img src={adrian} alt="Adrian" />
+                    <div className="img-container">
+                    <img src={mario} width={178} alt="Mario" />
+                    <img src={adrian} className="top" height={228} width={235}alt="Adrian" />
                     </div>
                 </div>
             </div>

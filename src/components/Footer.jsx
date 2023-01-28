@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
+
 const Footer =() => {
     return  (
             <section id="footer">
@@ -23,7 +24,7 @@ const Footer =() => {
             </ul>
             <ul>
                 <li>Contact</li>
-                <li>1111 Ocean Ave San Diego CA</li>
+                <li>1111 Ocean Ave Chicago, Illinois</li>
                 <li>555-555-5555</li>
                 <li>Little.Lemon@gmail.com</li>
             </ul>

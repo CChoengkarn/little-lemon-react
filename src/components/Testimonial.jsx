@@ -1,13 +1,14 @@
 import React from 'react'
 
+
 const Testimonial = (props) => {
     return (
         <div className='testimonial'>
-            <img src={props.image} alt={props.name} />
+            <img src={props.photo} alt={props.name} />
+            <img src={props.stars} />
             <div className="content">
                 <h4>{props.name}</h4>
-                <h4>{props.rating}</h4>
-                <p>"{props.testimonial}"</p>
+                <p>"{props.content}"</p>
             </div>
         </div>
 
