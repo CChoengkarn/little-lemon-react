@@ -11,6 +11,7 @@ import OrderOnline from './components/OrderOnline';
 import About from './components/About';
 import Login from './components/Login';
 
+
 function App() {
   function initializeTimes() {
     const times = {
@@ -55,6 +56,7 @@ function App() {
       <Route path="/order online" element={<OrderOnline />}></Route>
       <Route path="/about" element={<About />}></Route>
       <Route path="/login" element={<Login />}></Route>
+      
       </Routes>
     </>
   );

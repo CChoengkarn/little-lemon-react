@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import footerlogo from '../images/footerlogo.png';
 import { Link } from 'react-router-dom';
 import facebookicon from '../images/facebookicon.png';
 import instagram from '../images/instagram.png';
@@ -13,7 +13,7 @@ const Footer =() => {
     return  (
             <section id="footer">
             <div className="container">
-            <img src={logo} alt="Logo" />
+            <img src={footerlogo} alt="footerlogo" />
             <ul>
                 <li>Links</li>
                 <li>
