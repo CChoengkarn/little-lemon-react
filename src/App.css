@@ -385,52 +385,73 @@
 }
 
 
-
-
-
-
-
-
-
-form {
-  font-family: "Markazi Text", serif;
-  margin: auto;
-  width: 45vw;
-  padding: 8vh 5vw;
-}
-
-form h1 {
-  font-size: 65px;
-  font-weight: 500;
-  color:#495e57;
+.formInput {
+  max-width: 400px;
+  margin: 0 auto;
   text-align: center;
-}
-
-input,select {
-  display: block;
-  width: 100%;
-  margin: 0.5vh 0;
-  padding: 1vw;
-  font-size: 1rem;
-  -ms-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  outline-color: #495E57;
-  background: #fbdabb;
-  border: none;
-  border-bottom: 1px solid #495E57;
-  color: #495E57
-}
-
-
-label {
-  margin-top: 3vh;
-  display: block;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
-  color: #495E57;
+  font-family: "Karla", sans-serif;
 }
+
+.formInput label {
+  text-align: left;
+  display: block;
+  color: #495E57;
+  font-family: "Karla", sans-serif;
+
+}
+
+.formInput h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #EE9972;
+  margin-bottom: 30px;
+}
+
+.formInput input, .formInput select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Karla", sans-serif;
+}
+
+
+.formInput button {
+  background-color: #f4ce14;
+  color: black;
+  border: 0;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 input[type="submit"] {
   margin-top: 3vh;
