@@ -10,9 +10,9 @@ const BookingForm = () => {
   console.log("Date" , date);
 
   const handleSubmit = (e) => {e.preventDefault()
-    const answer=window.confirm("Reservation has been submitted") 
-    }
-  
+    const answer=window.confirm("Reservation has been submitted")
+  }
+
 
   return (
     <div className="formInput">
@@ -66,6 +66,7 @@ const BookingForm = () => {
       <select
       type="occasion"
       value={occasion}
+      onChange={(e) => setOccasion(e.target.value)}
       >
        <option value="birthday">Birthday</option>
        <option value="Anniversary">Anniversary</option>
@@ -79,6 +80,5 @@ const BookingForm = () => {
   }
 
 export default BookingForm;
-
 
 

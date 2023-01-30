@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/homepage" element={<HomePage />} />
         <Route
           path="/booking"
           element={
@@ -56,7 +56,6 @@ function App() {
       <Route path="/order online" element={<OrderOnline />}></Route>
       <Route path="/about" element={<About />}></Route>
       <Route path="/login" element={<Login />}></Route>
-      
       </Routes>
     </>
   );
