@@ -385,6 +385,10 @@
 }
 
 
+
+
+
+
 .formInput {
   max-width: 400px;
   margin: 0 auto;
@@ -397,8 +401,9 @@
 .formInput label {
   text-align: left;
   display: block;
-  color: #495E57;
+  color:  #495E57;
   font-family: "Karla", sans-serif;
+ 
 
 }
 
@@ -408,6 +413,7 @@
   font-weight: 500;
   color: #EE9972;
   margin-bottom: 30px;
+  background-color: #495E57
 }
 
 .formInput input, .formInput select {

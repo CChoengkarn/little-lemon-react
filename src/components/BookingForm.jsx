@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import ConfirmedBooking from './ConfirmedBooking';
+import { Link } from "react-router-dom";
 
 const BookingForm = () => {
   const [name, setName] = useState('');
@@ -12,7 +14,6 @@ const BookingForm = () => {
   const handleSubmit = (e) => {e.preventDefault()
     const answer=window.confirm("Reservation has been submitted")
   }
-
 
   return (
     <div className="formInput">
@@ -72,13 +73,15 @@ const BookingForm = () => {
        <option value="Anniversary">Anniversary</option>
        <option value="other">Other</option>
        </select>
-      <button type="submit">Submit
-      </button>
+       <Link to="/confirmedbooking">
+      <button type="submit">Submit</button>
+      </Link>
       </form>
       </div>
   )
   }
 
 export default BookingForm;
+
 
 

@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { useReducer } from 'react';
 import HomePage from './components/HomePage';
 import BookingPage from "./components/BookingPage";
-import { fetchAPI, submitAPI } from "./server/api";
+import { fetchAPI, submitAPI } from "./ApiLocation/api";
 import ConfirmedBooking from "./components/ConfirmedBooking";
 import Home from './components/Home';
 import Menu from './components/Menu';
@@ -51,11 +51,11 @@ function App() {
           }
         />
         <Route path="/confirmedbooking" element={<ConfirmedBooking />} />
-      <Route path="/home" element={<Home />}></Route>
-      <Route path="/menu" element={<Menu />}></Route>
-      <Route path="/order online" element={<OrderOnline />}></Route>
-      <Route path="/about" element={<About />}></Route>
-      <Route path="/login" element={<Login />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/menu" element={<Menu />}></Route>
+        <Route path="/order online" element={<OrderOnline />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/login" element={<Login />}></Route>
       </Routes>
     </>
   );
