@@ -10,7 +10,7 @@ const Login = () => {
             <Header />
             <Nav />
             <div className="logintitle">
-             <h1>login into your account here</h1>
+             <h1>Login Here</h1>
              <img src={loginpage} alt="loginpage" className="loginpage" />
         </div>
     <Footer />
