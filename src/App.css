@@ -478,6 +478,11 @@ input[type="submit"] {
   color:#495E57
 }
 
+.confirmedbooking p {
+  color: black; 
+  font-size: 14px;
+  font-weight: 600;
+}
 
 
 

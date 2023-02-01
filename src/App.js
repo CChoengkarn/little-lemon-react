@@ -10,7 +10,7 @@ import Menu from './components/Menu';
 import OrderOnline from './components/OrderOnline';
 import About from './components/About';
 import Login from './components/Login';
-
+import { Link } from 'react-router-dom';
 
 function App() {
   function initializeTimes() {
@@ -27,9 +27,9 @@ function App() {
   }
 
   function submitForm(formData) {
-    const success = submitAPI(formData);
-    if (success) {
-      window.location.href = "/confirmedbooking";
+    const valid = submitAPI(formData);
+    if (valid) {
+      <Link to="/confirmedbooking"></Link>
     }
   }
 
@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/homepage" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route
           path="/booking"
           element={
@@ -47,8 +47,8 @@ function App() {
               availableTimes={availableTimes}
               setAvailableTimes={setAvailableTimes}
               submitForm={submitForm}
-            />
-          }
+        />
+        }
         />
         <Route path="/confirmedbooking" element={<ConfirmedBooking />} />
         <Route path="/home" element={<Home />}></Route>
@@ -61,5 +61,6 @@ function App() {
   );
 }
 
-
 export default App;
+
+

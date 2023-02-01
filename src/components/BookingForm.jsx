@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ConfirmedBooking from './ConfirmedBooking';
 import { Link } from "react-router-dom";
 
+
 const BookingForm = () => {
   const [name, setName] = useState('');
   const [availableTimes, setAvailableTimes] = useState('17:00');
@@ -40,21 +41,21 @@ const BookingForm = () => {
       <option value="22:00">22:00</option>
       </select>
 
-      <label>Date</label>
+      <label htmlFor="Date">Date</label>
       <input
         type="date"
         required
         value={date}
         onChange={(e) => setDate(e.target.value)}
       />
-      <label>Email</label>
+      <label htmlFor="Email">Email</label>
       <input
         type="email"
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         />
-      <label>Number Of Guests</label>
+      <label htmlFor="Number of Guests">Number Of Guests</label>
       <input
         type="number"
         min="1"
@@ -63,7 +64,7 @@ const BookingForm = () => {
         required
         onChange={(e) => setGuest(e.target.value)}
       />
-      <label>Occasion</label>
+      <label htmlFor="Occasion">Occasion</label>
       <select
       type="occasion"
       value={occasion}
